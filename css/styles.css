@@ -73,6 +73,7 @@ ul {
   letter-spacing: 0.02em;
   color: #2e2f42;
   padding: 24px 0;
+  display: block;
 }
 .nav-list:hover {
   color: #404bbf;
@@ -88,6 +89,7 @@ ul {
 
 .address {
   font-style: normal;
+  margin-left: auto;
 }
 .address-list {
   font-weight: 400;
@@ -116,6 +118,9 @@ ul {
   text-align: center;
   color: #ffffff;
   max-width: 496px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 48px;
 }
 
 .button-title {
@@ -131,6 +136,9 @@ ul {
   height: 56px;
   border: none;
   border-radius: 4px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
 }
 
 .button:hover {
@@ -145,6 +153,16 @@ ul {
   display: flex;
   gap: 24px;
 }
+.header-two-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  margin-bottom: 8px;
+  text-align: left;
+}
+
 .header-three-title {
   font-weight: 500;
   font-size: 20px;
@@ -154,6 +172,16 @@ ul {
   margin-bottom: 8px;
   text-align: center;
 }
+.header-four-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  margin-bottom: 8px;
+  text-align: left;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -178,7 +206,28 @@ ul {
   color: #434455;
   margin-bottom: 8px;
   text-align: center;
+  margin-bottom: 0;
 }
+
+.paragraph-two {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  margin-bottom: 8px;
+  text-align: left;
+  margin-bottom: 0;
+}
+.paragraph-four {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  margin-bottom: 8px;
+  text-align: left;
+  margin-bottom: 0;
+}
+
 .list-three {
   display: flex;
   gap: 24px;
@@ -205,6 +254,7 @@ ul {
 .section-three-list {
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
+  background: #fff;
 }
 
 .section-four {
