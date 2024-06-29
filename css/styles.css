@@ -350,7 +350,9 @@ ul {
   display: inline-block;
   margin-bottom: 16px;
 }
-
+.logo-footer {
+  margin-right: 120px;
+}
 .icon-section-two {
   display: flex;
   align-items: center;
@@ -403,7 +405,7 @@ ul {
   fill: #f4f4fd;
 }
 .icons-footer {
-  display: flex;
+  display: block;
   align-items: center;
   gap: 16px;
   margin-top: 16px;
@@ -414,9 +416,12 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #fff;
-  margin-bottom: 0;
+  margin-bottom: 16px;
 }
-
+.list-footer-media {
+  display: flex;
+  gap: 16px;
+}
 .nav-list-studio {
   position: relative;
   display: flex;
