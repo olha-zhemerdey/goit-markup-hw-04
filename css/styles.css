@@ -377,6 +377,7 @@ ul {
   margin-bottom: auto;
 }
 .icon-list-element {
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   width: 40px;
   height: 40px;
 }
@@ -394,6 +395,9 @@ ul {
 }
 .svg-icon:focus {
   background-color: #404bbf;
+}
+.svg-icon-fill {
+  fill: #f4f4fd;
 }
 .icons-footer {
   display: flex;
