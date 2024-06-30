@@ -393,10 +393,7 @@ ul {
   align-items: center;
   justify-content: center;
 }
-.svg-icon:hover {
-  background-color: #404bbf;
-}
-
+.svg-icon:hover,
 .svg-icon:focus {
   background-color: #404bbf;
 }
@@ -433,9 +430,7 @@ ul {
   align-items: center;
   justify-content: center;
 }
-.svg-icon-footer:hover {
-  background-color: #31d0aa;
-}
+.svg-icon-footer:hover,
 .svg-icon-footer:focus {
   background-color: #31d0aa;
 }
